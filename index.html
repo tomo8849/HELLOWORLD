@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+      <link rel="icon" href="favicon.ico" type="image/x-icon" />
         <title>this is my sample website</title>
+        <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
     </head>
     <body>
    
-   
-<h1>Hello World</h1>
+      <header class="neutral-theme">
+        <h1>Hello! My name is Tomoko Tsukui-Nemzer. <br />I'm a Web Developer</h1>
+        <a href="#about" class="header-link button">
+        Find out more</a>
+        <nav>
+          
+        </nav>
+      </header>
 <main>
-    <section>
+    <section class="about primary-theme">
     
 <h2>About me</h2><!--this is an HTML code comment-->
-<div>
-    <img scr="./images/me_beach.jpg" alt="a photograph of me on the beach at my birthday!">
+<div class="about-text">
+    <img src="images/me_beach.jpg" alt="a photograph of me on the beach at my birthday!" class="about-img">
     <p>She is avhst, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
     <a href="www.resume.com">My resume</a>
@@ -25,6 +34,17 @@
     </section>
     <section>
         <h2>Project</h2>
+        <div> class="about-container">
+            <img scr=" " class-"about-img# alt=" ">
+            @media (min-width: 800px) {
+                .about-container {
+                    display: flex;
+                }
+                .about-text [
+                margin-lefy: var(--spacing)
+            }
+            
+        </div>
         <article><h3>Project Title</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
             <a href="#">See it live</a>
@@ -41,20 +61,25 @@
     </ul>
     <p>&copy; 2021 ~ Portofolio design by Tomoko</p>
     </footer>
-    <ul>
-        <li>
-          <a href="">Link</a>
+    <footer>
+    <ul class="social">
+        <li class="social-item">
+          <a class="social-link Linkedin" href="">Link</a>
         </li>
-        <li>
-          <a href="">Link</a>
+        <li class="social-item">
+          <a class="social-link twitter" href="">Link</a>
         </li>
-        <li>
-          <a href="">Link</a>
+        <li class="social-item">
+          <a class="social-link github" href="">Link</a>
         </li>
-        <li>
-          <a href="">Link</a>
+        <li class="social-item">
+          <a class="social-link you tube"href="">Link</a>
         </li>
-      </ul></body><header></header>
+      </ul>
+      <p>Copyright 2023 Portfolio by Tomoko Tsukui-Nemzer</p>
+    </footer>
+  </body>
+</header>
 
     
 
