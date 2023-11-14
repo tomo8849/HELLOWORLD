@@ -1,6 +1,9 @@
 :root {
-  --primary: red;
+  --primary: #0AA;
+  --dk-grey: #333;
+  --max-width: 960px;
   --spacing: 1rem;
+  --img-width: 350px;
 }
 
 body {
@@ -70,6 +73,7 @@ p {
   .about-container {
     display: flex;
   }
+  
 
   .about-text {
     margin-left: var(--spacing);
